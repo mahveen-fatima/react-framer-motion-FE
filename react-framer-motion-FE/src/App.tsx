@@ -1,6 +1,9 @@
 
 import './App.css'
-import  HorizontalScroll  from './components/HorizontalScroll'
+// import { Dashboard } from './components/Dashboard/Dashboard'
+// import { Sidebar } from './components/Sidebar/Sidebar'
+import { BlockInTextExample } from './components/BlockInTextExample'
+// import  HorizontalScroll  from './components/HorizontalScroll'
 // import { AuroraHero } from './components/AuroraHero'
 // import  HorizontalScrollCarousel  from './components/HorizontalScrollCarousel'
 // import { Bento } from './components/Bento'
@@ -13,7 +16,13 @@ function App() {
     // <Grid />
     // <HorizontalScrollCarousel />
     // <AuroraHero />
-    <HorizontalScroll />
+    // <HorizontalScroll />
+    <BlockInTextExample />
+    // <main className="grid gap-4 p-4 grid-cols-[220px_1fr]">
+    //   <Sidebar />
+    //   <Dashboard />
+    // </main>
+
   )
 }
 
